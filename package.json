@@ -1,0 +1,10 @@
+{
+  "name": "po-app",
+  "version": "1.0.0",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "start cmd /k \"cd backend && npm start\" && start cmd /k \"cd frontend && npm run dev\"",
+    "dev:backend": "cd backend && npm start",
+    "dev:frontend": "cd frontend && npm run dev"
+  }
+}
